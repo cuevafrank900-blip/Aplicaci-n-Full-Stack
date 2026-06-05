@@ -1,0 +1,21 @@
+Instertar
+
+POST http://localhost:3000/api/pais
+Content-Type: application/json
+
+{
+    "nombre":"Peru",
+    "codigo":"51"
+} 
+
+Actualizar
+PATCH http://localhost:3000/api/pais/1
+Content-Type: application/json
+
+{
+    "nombre":"Chile",
+    "codigo":"56"
+}
+
+Borrar
+DELETE http://localhost:3000/api/pais/4
